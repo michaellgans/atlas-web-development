@@ -1,0 +1,54 @@
+/* Style Sheet for Body */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 3px solid black
+}
+.container-A {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 3px solid black
+}
+
+.container-B {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 3px solid black
+}
+
+.container-C {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 3px solid black
+}
+
+.container-D {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 3px solid black
+}
+
+.container-E {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 3px solid black
+}
