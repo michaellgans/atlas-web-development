@@ -21,6 +21,15 @@ header {
     padding: 5px;
 }
 
+.logo-link {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 1px solid lime;
+    padding: 10px 50px 10px 50px;
+}
+
 .links-container {
     display: flex;
     flex-direction: row;
@@ -52,13 +61,4 @@ header {
 #link-right {
     padding: 10px 25px 10px 25px;
     margin-right: 5px;
-}
-
-.logo-link {
-    display: flex;
-    justify-content: center; /* main axis */
-    align-items: center; /* cross axis */
-    align-content: center; /* line behavior */
-    border: 1px solid lime;
-    padding: 10px 50px 10px 50px;
 }
