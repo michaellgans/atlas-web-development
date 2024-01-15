@@ -23,12 +23,11 @@ header {
 .links-container {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* main axis */
+    justify-content: space-evenly; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     float: right;
     border: 1px solid black;
-    padding: 5px;
 }
 
 .link {
@@ -37,7 +36,21 @@ header {
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     border: 1px solid red;
-    padding: 5px;
+}
+
+#link-left {
+    padding: 10px 25px 10px 25px;
+    margin-left: 5px;
+}
+
+#link-middle {
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+}
+
+#link-right {
+    padding: 10px 25px 10px 25px;
+    margin-right: 5px;
 }
 
 .logo-link {
@@ -45,6 +58,6 @@ header {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    border: 1px solid green;
-    padding: 5px;
+    border: 1px solid lime;
+    padding: 10px 50px 10px 50px;
 }
