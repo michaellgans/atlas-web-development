@@ -13,6 +13,7 @@
     --green-border: 2px solid lime;
     --red-border: 2px solid red;
     --orange-border: 2px solid orange;
+    --pink-border: 2px solid rgb(240, 89, 165);
 }
 
 .main-container {
@@ -107,7 +108,9 @@
 
 .image,
 .name,
-.subtitle {
+.subtitle,
+.quote,
+.author {
     display: flex;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
@@ -137,6 +140,35 @@
     width: 95%;
     border: var(--container-border);
     margin: var(--container-margin);
+}
+
+.box-1B {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* main axis */
+    align-content: center; /* line behavior */
+    padding: var(--box-padding);
+    margin: var(--box-margin);
+    border: var(--box-border);
+}
+
+.box-1B-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-content: center; /* line behavior */
+    padding: var(--box-padding);
+    margin: var(--box-margin);
+    border: var(--box-border);
+}
+
+.quote {
+    border: var(--pink-border);
+}
+
+.author {
+    border: var(--purple-border);
+    margin: var(--middle-margin);
 }
 
 .container-C {
