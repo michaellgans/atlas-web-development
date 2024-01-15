@@ -7,6 +7,7 @@ header {
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     border: 3px solid black;
+    border-bottom: 0;
     padding: 5px;
 }
 
