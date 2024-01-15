@@ -1,20 +1,66 @@
 /* Style Sheet for Body */
 
+:root {
+    --inner-padding: 10px 50px 10px 50px;
+    --box-padding: 5px;
+    --box-margin: 5px;
+    --box-border: 2px solid black;
+    --container-border: 3px solid black;
+    --container-margin: 5px 0px 5px 0px;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    border: 3px solid black
+    border: var(--container-border);
 }
+
+/* Banner Styling */
 .container-A {
     display: flex;
     flex-direction: column;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    border: 3px solid black
+    width: 95%;
+    border: var(--container-border);
+    margin: var(--container-margin);
+}
+
+.box-1A {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-content: center; /* line behavior */
+    padding: var(--box-padding);
+    margin: var(--box-margin);
+    border: var(--box-border);
+}
+
+.title,
+.three-words,
+.button {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    padding: var(--inner-padding);
+}
+
+.title {
+    border: 1px solid blue;
+}
+
+.three-words {
+    border: 1px solid blueviolet;
+    margin: 5px 0px 5px 0px;
+}
+
+.button {
+    border: 1px solid orange;
 }
 
 .container-B {
@@ -23,6 +69,7 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
+    width: 95%;
     border: 3px solid black
 }
 
@@ -32,6 +79,7 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
+    width: 95%;
     border: 3px solid black
 }
 
@@ -41,6 +89,7 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
+    width: 95%;
     border: 3px solid black
 }
 
@@ -50,5 +99,6 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
+    width: 95%;
     border: 3px solid black
 }
