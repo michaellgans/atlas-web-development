@@ -4,9 +4,15 @@
     --inner-padding: 10px 50px 10px 50px;
     --box-padding: 5px;
     --box-margin: 5px;
-    --box-border: 2px solid black;
-    --container-border: 3px solid black;
+    --box-border: 3px solid black;
+    --middle-margin: 5px 0px 5px 0px;
+    --container-border: 4px solid black;
     --container-margin: 5px 0px 5px 0px;
+    --blue-border: 2px solid blue;
+    --purple-border: 2px solid blueviolet;
+    --green-border: 2px solid lime;
+    --red-border: 2px solid red;
+    --orange-border: 2px solid orange;
 }
 
 .main-container {
@@ -16,6 +22,7 @@
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     border: var(--container-border);
+    margin: var(--container-margin);
 }
 
 /* Banner Styling */
@@ -51,16 +58,74 @@
 }
 
 .title {
-    border: 1px solid blue;
+    border: var(--blue-border);
 }
 
 .three-words {
-    border: 1px solid blueviolet;
-    margin: 5px 0px 5px 0px;
+    border: var(--purple-border);
+    margin: var(--middle-margin);
 }
 
 .button {
-    border: 1px solid orange;
+    border: var(--orange-border);
+}
+
+.box-2A,
+.box-2A-1A,
+.box-2A-1B,
+.box-2A-1C,
+.box-2A-1D {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-content: center; /* line behavior */
+    padding: var(--box-padding);
+    margin: var(--box-margin);
+    border: var(--box-border);
+}
+
+.title-box {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    padding: var(--inner-padding);
+    border: var(--blue-border);
+    width: 8.5%;
+    align-self: center;
+}
+
+.box-2A-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* main axis */
+    align-content: center; /* line behavior */
+    padding: var(--box-padding);
+    margin: var(--box-margin);
+    border: var(--box-border);
+}
+
+.image,
+.name,
+.subtitle {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    padding: var(--inner-padding);
+}
+
+.image {
+    border: var(--green-border);
+}
+
+.name {
+    border: var(--blue-border);
+    margin: var(--middle-margin);
+}
+
+.subtitle {
+    border: var(--purple-border);
 }
 
 .container-B {
@@ -70,7 +135,8 @@
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     width: 95%;
-    border: 3px solid black
+    border: var(--container-border);
+    margin: var(--container-margin);
 }
 
 .container-C {
@@ -80,7 +146,8 @@
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     width: 95%;
-    border: 3px solid black
+    border: var(--container-border);
+    margin: var(--container-margin);
 }
 
 .container-D {
@@ -90,7 +157,8 @@
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     width: 95%;
-    border: 3px solid black
+    border: var(--container-border);
+    margin: var(--container-margin);
 }
 
 .container-E {
@@ -100,5 +168,6 @@
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     width: 95%;
-    border: 3px solid black
+    border: var(--container-border);
+    margin: var(--container-margin);
 }
