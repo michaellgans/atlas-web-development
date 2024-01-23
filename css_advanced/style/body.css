@@ -31,8 +31,8 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    border: var(--container-border);
-    margin: var(--container-margin);
+    /* border: var(--container-border); */
+    /* margin: var(--container-margin); */
 }
 
 /* Banner Styling */
@@ -42,9 +42,10 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 95%;
-    border: var(--container-border);
+    width: 100%;
+    /* border: var(--container-border); */
     margin: var(--container-margin);
+    background-color: aqua;
 }
 
 .box-1A {
@@ -147,7 +148,7 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 95%;
+    width: 100%;
     border: var(--container-border);
     margin: var(--container-margin);
 }
@@ -187,7 +188,7 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 95%;
+    width: 100%;
     border: var(--container-border);
     margin: var(--container-margin);
 }
@@ -243,7 +244,7 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 95%;
+    width: 100%;
     border: var(--container-border);
     margin: var(--container-margin);
 }
@@ -292,7 +293,7 @@
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 95%;
+    width: 100%;
     border: var(--container-border);
     margin: var(--container-margin);
 }
