@@ -1,0 +1,83 @@
+/* Styling for footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 4px solid black;
+    padding: 5px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 3px solid black;
+    width: 95%;
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    float: left;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 2px solid lime;
+    padding: 10px 60px 10px 60px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    float: right;
+    border: 2px solid black;
+}
+
+.link {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    border: 2px solid red;
+}
+
+#link-left {
+    padding: 10px 25px 10px 25px;
+    margin-left: 5px;
+}
+
+#link-middle {
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+}
+
+#link-right {
+    padding: 10px 25px 10px 25px;
+    margin-right: 5px;
+}
+
+.text {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    margin-top: 5px;
+    padding: 10px 50px 10px 50px;
+}
