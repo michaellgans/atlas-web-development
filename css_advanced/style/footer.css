@@ -27,7 +27,7 @@ footer {
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     float: left;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 5px;
 }
 
@@ -36,7 +36,7 @@ footer {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    border: 2px solid lime;
+    /* border: 2px solid lime; */
     padding: 10px 60px 10px 60px;
 }
 
@@ -47,7 +47,7 @@ footer {
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     float: right;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .link {
@@ -55,7 +55,7 @@ footer {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 #link-left {

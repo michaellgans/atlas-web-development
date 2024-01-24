@@ -25,13 +25,21 @@
     flex-wrap: wrap;
 }
 
+body {
+    background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000;
+    background-blend-mode: normal, color;
+    background-image: url(../style/images/Smile\ School\ Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000; */
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    /* border: var(--container-border); */
     /* margin: var(--container-margin); */
 }
 
@@ -43,9 +51,7 @@
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     width: 100%;
-    /* border: var(--container-border); */
     margin: var(--container-margin);
-    background-color: aqua;
 }
 
 .box-1A {
