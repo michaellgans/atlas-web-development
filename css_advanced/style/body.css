@@ -91,10 +91,23 @@ body {
     font-family: source-sans-pro;
     font-size: 16px;
     font-weight: 700;
-    max-width: 152px;
+    width: 320px;
+    margin-top: -10px;
+    padding-bottom: 65px;
 }
 
 .button {
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    background: #C271FF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    text-align: center;
+    font-family: source-sans-pro;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 200px;
 }
 
 .box-2A,
