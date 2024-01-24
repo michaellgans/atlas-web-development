@@ -26,12 +26,11 @@
 }
 
 body {
-    background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000;
+    /* background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000; */
     background-blend-mode: normal, color;
     background-image: url(../style/images/Smile\ School\ Background.png);
     background-repeat: no-repeat;
     background-size: contain;
-    /* background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000; */
 }
 
 .main-container {
@@ -61,7 +60,6 @@ body {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
-    border: var(--box-border);
 }
 
 .title,
@@ -71,20 +69,32 @@ body {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    padding: var(--inner-padding);
+    /* padding: var(--inner-padding); */
 }
 
-.title {
-    border: var(--blue-border);
+.container-A .title {
+    color: #FFF;
+    text-align: center;
+    font-family: source-sans-pro;
+    font-size: 120px;
+    font-weight: 700;
+    margin-top: 180px;
 }
 
 .three-words {
-    border: var(--purple-border);
-    margin: var(--middle-margin);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    color: #FFF;
+    font-family: source-sans-pro;
+    font-size: 16px;
+    font-weight: 700;
+    max-width: 152px;
 }
 
 .button {
-    border: var(--orange-border);
 }
 
 .box-2A,
