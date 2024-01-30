@@ -228,7 +228,6 @@ body {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
-    border: var(--box-border);
 }
 
 .box-1B-1 {
@@ -238,11 +237,20 @@ body {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
-    border: var(--box-border);
+}
+
+.container-B .box-1B .circle {
+    height: 160px;
+    width: 160px;
 }
 
 .quote {
-    border: var(--pink-border);
+    color: #FFF;
+    font-family: source-sans-pro-light;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
+    width: 800px;
 }
 
 .author {
