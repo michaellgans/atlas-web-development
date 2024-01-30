@@ -134,7 +134,6 @@ body {
     display: flex;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
-    padding: var(--inner-padding);
     align-self: center;
     color: #FFF;
     font-family: source-sans-pro-extralight;
@@ -142,7 +141,7 @@ body {
     font-weight: 300;
     font-style: normal;
     line-height: normal;
-
+    margin-top: -20px;
 }
 
 .box-2A-1 {
@@ -217,9 +216,9 @@ body {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 100%;
-    border: var(--container-border);
+    width: 103%;
     margin: var(--container-margin);
+    background-color: #C271FF;
 }
 
 .box-1B {
