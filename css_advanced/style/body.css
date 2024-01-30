@@ -25,8 +25,17 @@
     flex-wrap: wrap;
 }
 
+@font-face {
+    font-family: source-sans-pro-light;
+    src: url(./fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: source-sans-pro-extralight;
+    src: url(./fonts/SourceSansPro-ExtraLight.otf);
+}
+
 body {
-    /* background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000; */
     background-blend-mode: normal, color;
     background-image: url(../style/images/background.png);
     background-repeat: no-repeat;
@@ -39,7 +48,6 @@ body {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    /* margin: var(--container-margin); */
 }
 
 /* Banner Styling */
@@ -69,7 +77,6 @@ body {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    /* padding: var(--inner-padding); */
 }
 
 .get-schooled {
@@ -131,9 +138,12 @@ body {
     padding: var(--inner-padding);
     align-self: center;
     color: #FFF;
-    font-family: source-sans-pro;
+    font-family: source-sans-pro-extralight;
     font-size: 32px;
     font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+
 }
 
 .box-2A-1 {
@@ -148,6 +158,8 @@ body {
 
 .purple {
     color: #C271FF;
+    font-weight: 700;
+    font-family: source-sans-pro;
 }
 
 .image,
