@@ -1,0 +1,75 @@
+/* Styling for footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    background-color: #071629;
+    height: 249px;
+    width: 1448px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* main axis */
+    align-items: center; /* cross axis */
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    float: left;
+    padding: 5px;
+}
+
+.footer-container .logo-link {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    padding-left: 200px;
+}
+
+.footer-container .links-container svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* main axis */
+    align-items: center; /* cross axis */
+    padding-right: 210px;
+}
+
+.link {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+}
+
+#link-left {
+    padding: 10px 25px 10px 25px;
+    margin-left: 5px;
+}
+
+#link-middle {
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+}
+
+#link-right {
+    padding: 10px 25px 10px 25px;
+    margin-right: 5px;
+}
+
+.copyright p {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    margin: 70px 0 39px 0;
+    color: #FFF;
+    opacity: .3517;
+    font-size: 12px;
+    font-family: source-sans-pro;
+    font-weight: 400;
+}

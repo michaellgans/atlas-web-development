@@ -1,0 +1,63 @@
+/* Styling for Header */
+
+@font-face {
+    font-family: source-sans-pro;
+    src: url(./fonts/SourceSansPro-Regular.otf);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    float: left;
+    padding: 5px;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    padding: 10px 60px 10px 60px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* main axis */
+    align-items: center; /* cross axis */
+    align-content: center; /* line behavior */
+    float: right;
+}
+
+.link {
+    color: #FFF;
+    font-family: source-sans-pro;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#link-left {
+    padding: 10px 25px 10px 25px;
+    margin-left: 5px;
+}
+
+#link-middle {
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+}
+
+#link-right {
+    padding: 10px 25px 10px 25px;
+    margin-right: 5px;
+}
