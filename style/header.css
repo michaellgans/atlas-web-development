@@ -14,7 +14,7 @@ header {
     padding: 5px;
 }
 
-.logo {
+header .logo {
     display: flex;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
@@ -23,7 +23,7 @@ header {
     padding: 5px;
 }
 
-.logo-link {
+header .logo .logo-link {
     display: flex;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
@@ -31,16 +31,15 @@ header {
     padding: 10px 60px 10px 60px;
 }
 
-.links-container {
+header .links-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; /* main axis */
     align-items: center; /* cross axis */
-    align-content: center; /* line behavior */
-    float: right;
+    margin-right: 100px;
 }
 
-.link {
+.links-container .link {
     color: #FFF;
     font-family: source-sans-pro;
     font-size: 12px;
