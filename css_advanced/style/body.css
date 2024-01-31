@@ -365,10 +365,10 @@ blockquote {
     flex-direction: column;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
-    align-content: center; /* line behavior */
     width: 100%;
-    border: var(--container-border);
     margin: var(--container-margin);
+    background-color: #071629;
+    width: 90.75rem;
 }
 
 .box-1D {
@@ -378,7 +378,6 @@ blockquote {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
-    border: var(--box-border);
 }
 
 .box-1D-1,
@@ -391,7 +390,6 @@ blockquote {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
-    border: var(--box-border);
 }
 
 .box-1D-1 .title,
@@ -402,7 +400,7 @@ blockquote {
 }
 
 .container-D .title-box {
-    margin-top: 5px;
+    margin-top: 26px;
 }
 
 .container-D .button {
