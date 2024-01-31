@@ -365,7 +365,6 @@ blockquote {
     flex-direction: column;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
-    width: 100%;
     margin: var(--container-margin);
     background-color: #071629;
     width: 90.75rem;
@@ -392,19 +391,39 @@ blockquote {
     margin: var(--box-margin);
 }
 
-.box-1D-1 .title,
-.box-1D-2 .title,
-.box-1D-3 .title,
-.box-1D-4 .title {
+.box-1D-1 .title h2,
+.box-1D-2 .title h2,
+.box-1D-3 .title h2,
+.box-1D-4 .title h2 {
     margin: var(--middle-margin);
+    margin-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: source-sans-pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
 }
 
 .container-D .title-box {
-    margin-top: 26px;
+    margin: 45px 0 45px 0;
+}
+
+.box-1D-1 .text p,
+.box-1D-2 .text p,
+.box-1D-3 .text p,
+.box-1D-4 .text p {
+    margin: var(--middle-margin);
+    color: #FFF;
+    text-align: center;
+    font-family: source-sans-pro-light;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .container-D .button {
-    margin-bottom: 5px;
+    margin: 45px 0 45px 0;
 }
 
 .container-E {
