@@ -74,7 +74,8 @@ body {
 
 .container-A .title,
 .container-A .three-words,
-.container-A .button {
+.container-A .button,
+.container-D .button {
     display: flex;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
@@ -343,6 +344,7 @@ blockquote {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
+    margin-bottom: 40px;
     width: 265px;
 }
 
@@ -430,7 +432,7 @@ blockquote {
     flex-direction: column;
     justify-content: center; /* main axis */
     align-content: center; /* line behavior */
-    padding: var(--box-padding);
+    padding: var(--inner-padding);
     margin: var(--box-margin);
 }
 
@@ -485,7 +487,7 @@ blockquote {
     flex-direction: column;
     justify-content: center; /* main axis */
     align-items: flex-start; /* line behavior */
-    margin: 0 25px 0 25px;
+    margin: 0 50px 50px 50px;
 }
 
 .small-box-1E .title h2 {
@@ -493,7 +495,6 @@ blockquote {
     font-family: source-sans-pro;
     font-size: 16px;
     font-weight: 700;
-    margin-left: 50px;
 }
 
 .box-1E-1,
