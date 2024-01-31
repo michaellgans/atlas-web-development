@@ -1,7 +1,7 @@
 /* Style Sheet for Body */
 
 :root {
-    --inner-padding: 10px 50px 10px 50px;
+    --inner-padding: 10px 60px 10px 60px;
     --box-padding: 5px;
     --box-margin: 5px;
     --box-border: 3px solid black;
@@ -225,18 +225,25 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center; /* main axis */
-    align-content: center; /* line behavior */
+    align-items: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
+}
+
+.container-B .box-1B .image {
+    border: solid;
+    padding: 0;
+    margin: 120px 0px 120px 0px;
 }
 
 .box-1B-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* main axis */
-    align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
+    border: solid;
+    align-items: flex-start;
+    height: fit-content;
 }
 
 .container-B .box-1B .circle {
@@ -250,12 +257,35 @@ body {
     font-weight: 400;
     font-size: 22px;
     line-height: 33.6px;
-    width: 800px;
+    width: 743px;
+    padding: 0;
+}
+
+blockquote {
+    margin: 0 0 8px 40px;
 }
 
 .author {
-    border: var(--purple-border);
-    margin: var(--middle-margin);
+    color: #FFF;
+    font-family: source-sans-pro;
+    font-weight: 700;
+    line-height: 33.6px;
+    padding: 0;
+    margin: 0px 0px 0px 40px;
+}
+
+.author p {
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle {
+    margin: 0px 0px 0px 40px;
+}
+
+.subtitle p {
+    margin: 0;
+    padding: 0;
 }
 
 .container-C {
