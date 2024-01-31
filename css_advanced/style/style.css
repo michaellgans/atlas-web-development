@@ -340,22 +340,63 @@ blockquote {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
+    width: 265px;
 }
 
-.box-1C-1 .title,
-.box-1C-2 .title,
-.box-1C-3 .title,
-.box-1C-4 .title {
+.box-1C-1 .title h2,
+.box-1C-2 .title h2,
+.box-1C-3 .title h2,
+.box-1C-4 .title h2 {
+    color: #071629;
+    font-family: source-sans-pro;
+    font-size: 16px;
+    font-weight: 700;
+    margin: var(--middle-margin);
+    padding-left: 5px;
+    justify-content: left;
+}
+
+.box-1C-1 .text p,
+.box-1C-2 .text p,
+.box-1C-3 .text p,
+.box-1C-4 .text p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: source-sans-pro;
+    font-size: 14;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.small-box-1 .avatar {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border: solid red;
+}
+
+.small-box-1 .title h3 {
+    color: #C271FF;
+    font-family: source-sans-pro;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
     margin: var(--middle-margin);
 }
 
-/* COME BACK LATER */
+.small-box-2 .text p {
+    color: #C271FF;
+    text-align: right;
+    font-family: source-sans-pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+}
 
 .box-1C-1 .image,
 .box-1C-2 .image,
 .box-1C-3 .image,
 .box-1C-4 .image {
-    padding: 0 5px 50px 5px;
+    padding: 5px;
 }
 
 .container-D {
