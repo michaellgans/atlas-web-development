@@ -432,8 +432,7 @@ blockquote {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 100%;
-    border: var(--container-border);
+    width: 90.75rem;
     margin: var(--container-margin);
 }
 
@@ -442,10 +441,16 @@ blockquote {
     display: flex;
     flex-direction: column;
     justify-content: center; /* main axis */
-    align-content: center; /* line behavior */
-    padding: var(--box-padding);
-    margin: var(--box-margin);
-    border: var(--box-border);
+    align-items: flex-start; /* line behavior */
+    margin: 0 25px 0 25px;
+}
+
+.small-box-1E .title h2 {
+    color: #071629;
+    font-family: source-sans-pro;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 50px;
 }
 
 .box-1E-1,
@@ -456,13 +461,22 @@ blockquote {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
-    border: var(--box-border);
 }
 
-.container-E .title-box {
-    margin-top: 5px;
+.container-E .title-box h1 {
+    margin: 60px 0 50px 0;
+    color: #071629;
+    font-family: source-sans-pro-light;
+    font-size: 60px;
+    font-weight: 300;
 }
 
-.small-box-1E .text {
+.small-box-1E .text p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: source-sans-pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 350px;
     margin-top: 5px;
 }
