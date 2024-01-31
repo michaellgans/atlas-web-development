@@ -7,6 +7,7 @@ footer {
     align-items: center; /* cross axis */
     background-color: #071629;
     height: 249px;
+    width: 1448px;
 }
 
 .footer-container {
@@ -14,7 +15,7 @@ footer {
     flex-direction: row;
     justify-content: space-between; /* main axis */
     align-items: center; /* cross axis */
-    width: 90.75rem;
+    width: 100%;
 }
 
 .logo {

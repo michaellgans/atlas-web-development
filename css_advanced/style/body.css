@@ -56,8 +56,7 @@ body {
     flex-direction: column;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
-    align-content: center; /* line behavior */
-    width: 100%;
+    width: 1448px;
     margin: var(--container-margin);
 }
 
@@ -216,7 +215,7 @@ body {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 90.75rem;
+    width: 1448px;
     margin: var(--container-margin);
     background-color: #C271FF;
 }
@@ -300,7 +299,7 @@ blockquote {
     flex-direction: column;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
-    width: 100%;
+    width: 1448px;
     margin: var(--container-margin);
 }
 
@@ -367,7 +366,7 @@ blockquote {
     align-items: center; /* cross axis */
     margin: var(--container-margin);
     background-color: #071629;
-    width: 90.75rem;
+    width: 1448px;
 }
 
 .box-1D {
@@ -432,7 +431,7 @@ blockquote {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 90.75rem;
+    width: 1448px;
     margin: var(--container-margin);
 }
 
