@@ -7,7 +7,7 @@ footer {
     align-items: center; /* cross axis */
     background-color: #071629;
     height: 249px;
-    width: 1448px;
+    width: 100%;
 }
 
 .footer-container {
