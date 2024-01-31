@@ -216,7 +216,7 @@ body {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
-    width: 103%;
+    width: 90.75rem;
     margin: var(--container-margin);
     background-color: #C271FF;
 }
@@ -231,7 +231,6 @@ body {
 }
 
 .container-B .box-1B .image {
-    border: solid;
     padding: 0;
     margin: 120px 0px 120px 0px;
 }
@@ -241,7 +240,6 @@ body {
     flex-direction: column;
     padding: var(--box-padding);
     margin: var(--box-margin);
-    border: solid;
     align-items: flex-start;
     height: fit-content;
 }
@@ -271,6 +269,7 @@ blockquote {
     font-weight: 700;
     line-height: 33.6px;
     padding: 0;
+    font-size: 22px;
     margin: 0px 0px 0px 40px;
 }
 
@@ -279,8 +278,14 @@ blockquote {
     padding: 0;
 }
 
-.subtitle {
+.box-1B-1 .subtitle {
     margin: 0px 0px 0px 40px;
+    color: #FFF;
+    font-family: source-sans-pro-light;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px;
 }
 
 .subtitle p {
