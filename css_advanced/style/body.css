@@ -293,19 +293,23 @@ blockquote {
     padding: 0;
 }
 
+/* Container C */
+
 .container-C {
     display: flex;
     flex-direction: column;
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
-    align-content: center; /* line behavior */
     width: 100%;
-    border: var(--container-border);
     margin: var(--container-margin);
 }
 
 .container-C .title-box {
-    margin-top: 5px;
+    margin: 50px 0 50px 0;
+    color: #071629;
+    font-family: source-sans-pro-light;
+    font-size: 32px;
+    font-weight: 300;
 }
 
 .box-1C,
@@ -318,7 +322,6 @@ blockquote {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
-    border: var(--box-border);
 }
 
 .small-box-1 .image {
@@ -335,11 +338,10 @@ blockquote {
     align-content: center; /* line behavior */
     padding: var(--box-padding);
     margin: var(--box-margin);
-    border: var(--box-border);
 }
 
 .text {
-    border: var(--purple-border)
+    /* border: var(--purple-border) */
 }
 
 .box-1C-1 .title,
@@ -347,6 +349,15 @@ blockquote {
 .box-1C-3 .title,
 .box-1C-4 .title {
     margin: var(--middle-margin);
+}
+
+/* COME BACK LATER */
+
+.box-1C-1 .image,
+.box-1C-2 .image,
+.box-1C-3 .image,
+.box-1C-4 .image {
+    padding: 0 5px 50px 5px;
 }
 
 .container-D {
