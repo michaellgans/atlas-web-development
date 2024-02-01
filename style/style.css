@@ -41,7 +41,9 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     flex: 0;
+    margin: 0px;
     width: 100%;
+    background-color: #071629;
 }
 
 .main-container {
@@ -226,7 +228,6 @@ body {
     align-items: center; /* cross axis */
     align-content: center; /* line behavior */
     width: 100%;
-    margin: var(--container-margin);
     background-color: #C271FF;
 }
 
@@ -264,7 +265,7 @@ body {
     font-weight: 400;
     font-size: 22px;
     line-height: 33.6px;
-    width: 743px;
+    max-width: 47rem;
     padding: 0;
 }
 
@@ -310,7 +311,7 @@ blockquote {
     justify-content: center; /* main axis */
     align-items: center; /* cross axis */
     width: 100%;
-    margin: var(--container-margin);
+    background-color: white;
 }
 
 .container-C .title-box {
@@ -328,6 +329,13 @@ blockquote {
     display: flex;
     flex-direction: row;
     justify-content: left;
+}
+
+.box-1C {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
 
 .small-box-1 .image {
@@ -479,6 +487,7 @@ blockquote {
     align-content: center; /* line behavior */
     width: 100%;
     margin: var(--container-margin);
+    background-color: white;
 }
 
 .box-1E,
