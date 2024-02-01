@@ -331,6 +331,13 @@ blockquote {
     justify-content: left;
 }
 
+.box-1C {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
 .small-box-1 .image {
     margin-right: 5px;
 }
